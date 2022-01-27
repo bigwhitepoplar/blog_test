@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello2</title>
+    <script>
+        var json = {
+            "key1": 12,
+            "key2": 13,
+            "key3": 14
+        };
+        alert(json.key1);
+        var string = JSON.stringify(json);
+        alert(string);
+    </script>
+</head>
+<body>
+    <form action="http://localhost:8080/blog_test/hello2" method="get">
+        <button type="submit" >get</button>
+        <input type="submit">
+    </form>
+    <form action="http://localhost:8080/blog_test/hello2" method="post">
+        <button type="submit" >post</button>
+        <input type="submit">
+    </form>
+</body>
+</html>
