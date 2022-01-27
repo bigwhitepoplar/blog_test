@@ -17,6 +17,6 @@
     <%@include file="/small.jsp"%>
     <% int i = Math.max(1, 2); %>
     <%= i %>
-66666
+      6666677777
   </body>
 </html>
